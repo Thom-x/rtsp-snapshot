@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
 
+rm /var/www/localhost/htdocs/snapshots/keep
 echo "Stream url : $URL"
 echo $URL > /tmp/url
