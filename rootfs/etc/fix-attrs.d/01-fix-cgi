@@ -1,2 +1,2 @@
-/var/www/localhost/htdocs/snapshots true nobody 0644 0755
+/var/www/localhost/htdocs/snapshots true nobody 0644 0777
 /var/www/localhost/htdocs/snapshot.cgi false nobody 0755 0755
