@@ -1,9 +1,9 @@
 # RTSP Snapshot
 
-[![Build Status](https://travis-ci.org/Thom-x/rtsp_snapshot.svg?branch=master)](https://travis-ci.org/Thom-x/rtsp_snapshot)
-![](https://images.microbadger.com/badges/image/thomx/rtsp_snapshot.svg)
-![](https://images.microbadger.com/badges/version/thomx/rtsp_snapshot.svg)
-![GitHub](https://img.shields.io/github/license/Thom-x/rtsp_snapshot)
+[![Build Status](https://travis-ci.org/Thom-x/rtsp-snapshot.svg?branch=master)](https://travis-ci.org/Thom-x/rtsp-snapshot)
+![](https://images.microbadger.com/badges/image/thomx/rtsp-snapshot.svg)
+![](https://images.microbadger.com/badges/version/thomx/rtsp-snapshot.svg)
+![GitHub](https://img.shields.io/github/license/Thom-x/rtsp-snapshot)
 
 Simple docker image to grab snapshot from a RTSP stream.
 
@@ -26,7 +26,7 @@ In order to run this container you'll need docker installed.
 Run the image
 
 ```shell
-docker run "/path/to/snapshot/on/host:/var/www/localhost/htdocs/snapshots" -e URL=rtsp://192.168.1.63/unicast -p 80:80 thomx/rtsp_snapshot
+docker run "/path/to/snapshot/on/host:/var/www/localhost/htdocs/snapshots" -e URL=rtsp://192.168.1.63/unicast -p 80:80 thomx/rtsp-snapshot
 ```
 
 Take a snapshot :
