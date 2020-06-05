@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+echo "Stream url : $URL"
+echo $URL > /tmp/url

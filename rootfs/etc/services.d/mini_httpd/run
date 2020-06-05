@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv bash
+
+mini_httpd -C /etc/mini_httpd/mini_httpd.conf -c "**.cgi|**.sh"  -l /dev/stdout -D
