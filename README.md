@@ -26,7 +26,7 @@ In order to run this container you'll need docker installed.
 Run the image
 
 ```shell
-docker run "/path/to/snapshot/on/host:/var/www/localhost/htdocs/snapshots" -e URL=rtsp://192.168.1.63/unicast -p 80:80 thomx/rtsp-snapshot
+docker run -v "/path/to/snapshot/on/host:/var/www/localhost/htdocs/snapshots" -e URL=rtsp://192.168.1.63/unicast -p 80:80 thomx/rtsp-snapshot
 ```
 
 Take a snapshot :
